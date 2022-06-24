@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img class="pic1" src="atm.png" alt="ATM">
+            <img class="pic2" src="Logo-SBI.png" alt="ATM">
+            <img class="pic3" src="pngegg.png" alt="ATM">
+            <div class="debit">GLOBAL<br>DEBIT+PREPAID</div>
+            <div class="sbi">SBI</div>
+            <div class="number">2002 6666 8888 4545</div>
+            <div class="cvv"></div>
+            <div class="valid">VALID<br>TRUE</div>
+            <div class="date">07/26</div>
+            <div class="name">BIMAN KUMAR DAS</div>
+            <div class="m1"></div>
+            <div class="m2"></div>
+        </div>
+
+        <div class="card">
+           
+            <div class="d1"></div>
+            <div class="d2"></div>
+            <div class="d3">546</div>
+            <div class="m3"></div>
+            <div class="m4"></div>
+            <img class="pic21" src="Logo-SBI.png" alt="ATM">
+            <div class="sbi2">SBI</div>
+
+        </div>
+        <!-- java script part for tilt effect <vanilla tilt js> -->
+            <script type="text/javascript" src="vanilla-tilt.js"></script>
+            <script>VanillaTilt.init(document.querySelectorAll(".card"),{
+                max: 25,
+                speed: 400,
+                glare:true,
+                "max-glare": .5,
+            });
+</script>
+<!-- // end of JS -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kdam+Thmor+Pro&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Inter', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+body
+{   height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#161623;
+    /* padding: auto; */
+}
+body::after{
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(17, 189, 186),yellow) ;
+    clip-path: circle(17% at 80% 70%);
+    z-index: -1;
+
+}
+body::before{
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(255, 145, 0),rgb(255, 0, 0)) ;
+    clip-path: circle(45% at left 0%);
+
+}
+.container{
+    display: flex;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 30px;
+    height: 63.98mm;
+    width: 102.0mm;
+    border-top:2px solid rgba(255, 255, 255, 0.5) ;
+    border-left:2px solid  rgba(255, 255, 255, 0.5) ;
+    overflow: hidden;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0,0.5);
+    backdrop-filter: blur(5px);
+    /* 85.60 mm × 53.98 mm */
+}
+.pic1{
+    height: 57px;
+    position: absolute;
+    left: 37px;
+    top: 73px;
+    /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.1) inset; */
+}
+.number{
+    position: absolute;
+    left: 45px;
+    top: 125px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+   letter-spacing: 8px;
+
+}
+.debit{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255,.5);
+}
+.pic2{
+    height: 35px;
+    position: absolute;
+    left: 250px;
+    top: 18px;
+    opacity: .7;
+}
+.sbi{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(255, 255, 255,.25);
+    position: absolute;
+    left: 306px;
+    top: 4px;
+
+}
+.pic3{
+    height: 65px;
+    position: absolute;
+    left: 290px;
+    top: 65px;
+    
+    opacity: 0.5;
+    
+}
+.valid{
+    position: absolute;
+    top: 165px;
+    left: 55px;
+    font-size: 10px;
+    color: rgba(255, 255, 255,.25);
+   line-height: 10px;
+}
+.date{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 171px;
+    left: 83px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(255, 255, 255,.5);
+   line-height: 10px;
+}
+.name{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 195px;
+    left: 37px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(255, 255, 255,.5);
+    letter-spacing: 3px;
+    word-spacing: 8px;
+   
+}
+.m1{
+    position: absolute;
+    top: 175px;
+    left: 275px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255,.3);
+
+}
+.m2{
+    position: absolute;
+    top: 175px;
+    left: 295px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255,.3);
+
+}
+.d1{
+    position: absolute;
+    top: 30px;
+    left: -1px;
+    width: 100%;
+    height: 32px;
+    background-color: rgba(255, 255, 255,.1);
+    box-shadow: 0 0 5px rgba(255, 255, 255,.3) inset ;
+}
+.m3{
+    position: absolute;
+    top: 175px;
+    left: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255,.4);
+
+}
+.m4{
+    position: absolute;
+    top: 175px;
+    left: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255,.4);
+
+}
+.pic21{
+    height: 35px;
+    position: absolute;
+    left: 250px;
+    top: 184px;
+    opacity: 1;
+}
+.sbi2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(255, 255, 255,.4);
+    position: absolute;
+    left: 306px;
+    top: 170px;
+
+}
+.d2{
+    position: absolute;
+    top: 100px;
+    left: 7px;
+    width: 40%;
+    height: 35px;
+    background-color: rgba(255, 255, 255,.3);
+    box-shadow: 0 0 5px rgba(255, 255, 255,.3) inset ;
+}
+.d3{
+    position: absolute;
+    top: 105px;
+    left: 7 px;
+    width: 53%;
+    height: 25px;
+    padding-left: 43%;
+    background-color: rgba(255, 255, 255,.1);
+    box-shadow: 0 0 5px rgba(255, 255, 255,.3) inset ;
+}
